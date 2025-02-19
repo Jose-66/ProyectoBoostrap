@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia de Badminton</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #0056b3;
+            border-radius: 4px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #007bff;
+            font-size: 1.75rem;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        iframe {
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .quote {
+            background-color: #e9f7fe;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            margin-top: 20px;
+            font-style: italic;
+            color: #333;
+        }
+
+        .video-container {
+            margin-bottom: 40px;
+        }
+
+        .card {
+            margin-top: 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: #f1f1f1;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Badminton World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reglas.html">Reglas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tecnicas.html">Técnicas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Videos y Audios sobre Badminton</h2>
+        <p>Aquí puedes ver algunos videos y escuchar sonidos relacionados con el bádminton. Disfruta de los recursos multimedia que hemos preparado para ti.</p>
+
+        <!-- Sección de videos -->
+        <div class="video-container">
+            <h3><i class="fas fa-video"></i> Explicación sobre el bádminton</h3>
+            <iframe width="560" height="315" src="https://www.bing.com/videos/riverview/relatedvideo?q=video+explicacion+del+badminton&&mid=3D8F5C06F630B28E26933D8F5C06F630B28E2693&FORM=VCGVRP" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- Sección de audio -->
+        <div class="video-container">
+            <h3><i class="fas fa-volume-up"></i> Sonido del volante de bádminton</h3>
+            <audio controls>
+                <source src="https://cdn.pixabay.com/download/audio/2021/02/17/audio_34455.mp3?filename=el-volante-badminton-34455.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+
+        <!-- Sección de recursos adicionales -->
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Sonidos del Bádminton</h5>
+                <p class="card-text">Escucha algunos de los sonidos característicos del bádminton, como el impacto del volante con la raqueta o el suelo. Estos sonidos se convierten en parte del encanto del deporte.</p>
+                <audio controls>
+                    <source src="https://cdn.pixabay.com/download/audio/2021/02/17/audio_34455.mp3?filename=el-volante-badminton-34455.mp3" type="audio/mp3">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Frase de inspiración -->
+        <div class="quote">
+            "El bádminton no solo es un deporte, es una lección de disciplina y respeto."
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Badminton World | <a href="contacto.html">Contacto</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
